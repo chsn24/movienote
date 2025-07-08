@@ -1,61 +1,68 @@
+/* Aplica fonte sem serifa a toda a página, fundo verde e texto branco */
 html {
     font-family: sans-serif;
     background-color: seagreen;
     color: #fff;
 }
 
+/* Container centralizado com espaçamento interno e fundo semitransparente */
 .container {
     position: relative;
-    margin: 50px auto; /* Margem lateral calculada para centralizar o elemento */
-    padding: 20px 50px;
-    max-width: 800px;
-    background-color: rgba(255,255,255,0.05);
-    border-radius: 8px;
+    margin: 50px auto; /* centraliza horizontalmente com margem automática */
+    padding: 20px 50px; /* espaçamento interno: 20px topo/baixo, 50px lados */
+    max-width: 800px; /* largura máxima */
+    background-color: rgba(255,255,255,0.05); /* branco transparente */
+    border-radius: 8px; /* cantos arredondados */
 }
 
+/* Texto em negrito e cor preta */
 .bold {
     font-weight: bold;
     color: black;
 }
 
-/* header */
+/* Centraliza texto do cabeçalho */
 .header {
     text-align: center;
 }
 
+/* Título principal grande */
 .main-title {
     font-size: 40px;
 }
 
+/* Parágrafo em itálico */
 .main-paragraph {
     font-style: italic;
 }
 
-/* Imagens */
+/* Imagens em destaque, texto centralizado e negrito */
 .featured-image {
     text-align: center;
     font-weight: bold;
     color: #000;
 }
 
+/* Imagens dentro da classe .bold-image com tamanho fixo e borda preta */
 .bold-image img {
     width: 300px;
     height: 200px;
     border: 3px solid #000;
 }
 
+/* Imagens dentro de .featured-image com borda amarela */
 .featured-image img {
     border: 3px solid #ff0;
 }
 
+/* Container .bold-image com texto centralizado e preto */
 .bold-image {
     text-align: center;
     font-weight: bold;
     color: #000;
-    
 }
 
-/* Quotes */
+/* Container para citações com fundo preto, texto amarelo e borda vermelha direita */
 .quotes-container {
     background-color: #000;
     padding-top: 5px;
@@ -65,16 +72,18 @@ html {
     margin-bottom: 20px;
 }
 
+/* Estilo para bloco de citação dentro do container */
 .quotes-container blockquote {
-    font-weight: 200;
+    font-weight: 200; /* fonte fina */
     font-size: 20px;
 }
 
+/* Parágrafos dentro do container ficam em itálico */
 .quotes-container p {
     font-style: italic;
 }
 
-/* Curiosidades */
+/* Container de curiosidades com espaçamento e bordas superior/inferior tracejadas */
 .curiosities-container {
     padding: 25px 0;
     margin: 25px 0;
